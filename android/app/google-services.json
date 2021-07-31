@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326020433230",
+    "project_id": "hf-app-6ac36",
+    "storage_bucket": "hf-app-6ac36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326020433230:android:a1c193ead131c5c018ca1f",
+        "android_client_info": {
+          "package_name": "com.hf.hf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326020433230-1cvf0v62bhv6t93qb71s81mpdak2cj0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYLuwQyx_P5HaNBdgRk8Dg2S2Lo_TRTsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326020433230-1cvf0v62bhv6t93qb71s81mpdak2cj0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
