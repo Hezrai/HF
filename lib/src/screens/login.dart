@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:hf/src/screens/home.dart';
+import 'package:hf/src/screens/verify.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -52,7 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Text('Sign Up'),
                 onPressed: () {
                   auth.createUserWithEmailAndPassword(email: _email, password: _password).then((_) {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => VerifyScreen()));
                   });
                 },
               )
